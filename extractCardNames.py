@@ -1,6 +1,6 @@
 import json
 
-input = open("AllSets.enUS.json")
+input = open("AllSets.enUS.json", encoding="utf8")
 output = open("allCards.txt", "w")
 
 allSets = json.load(input)
@@ -29,20 +29,9 @@ for set in allSets:
 
         byCost[cost].append(cardString)
 
-for cost in range(0, 7):
+for cost in range(0, 8):
+    print(cost)
     for card in byCost[cost]:
-        # searchTerm = card.replace('\n', '')
-        #
-        # for other in byCost[cost]:
-        #     if card == other:
-        #         continue
-        #
-        #     if str.find(other.encode("utf-8"), searchTerm.encode("utf-8")) > 0:
-        #         print "=========="
-        #         print card
-        #         print other
-        #         print "=========="
-
         output.write(str(cost))
-        output.write('$')
-        output.write(card.encode("utf-8"))
+        output.write("$")
+        output.write(card)
