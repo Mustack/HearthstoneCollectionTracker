@@ -1,6 +1,6 @@
-$inputFile = FileOpen("allCards.txt")
-$outputFile = FileOpen("ownedCards.txt")
-$currentManaCost = -1
+Dim $inputFile = FileOpen("allCards.txt")
+Dim $outputFile = FileOpen("ownedCards.txt")
+Dim $currentManaCost = -1
 
 ; Rather than have a static coord for all mana cost filters,
 ; we have the first one and increment by X amount for each one after that.
@@ -8,14 +8,28 @@ Dim $initialManaCoord[2] = [405,990]
 Dim $manaCostIncrement = 45
 
 Dim $firstCard[2] = [335,205] ; Coord of first card
-Dim $firstCardMult[2] = [440,505] ; Coord of first card's "X2"
+Dim $firstCardMult[2] = [405,530] ; Coord of first card's "X2"
+Dim $newCardTab[2] = [339, 50]
 Dim $secondCardIncrement = 245 ; How much to add to the X axis from the first card to read the second card
 
 ; Baseline colours for each coord used to determine if a card is present on screen
 Dim $baselineFirstCard
 Dim $baselineFirstCardMult
+Dim $baselineNewCardTab
 Dim $baselineSecondCard
-Dim $baselineSecondCardMult
+
+; Record a baseline of colours for each coord
+Func getBaselineColours()
+   ; Search for giberish so we know no cards are present on screen
+   searchForCard("not a card igbaugyasdvtfyuasdtvfia")
+
+   Sleep(1500)
+
+   $baselineFirstCard = PixelGetColor($firstCard[0], $firstCard[1])
+   $baselineFirstCardMult = PixelGetColor($firstCardMult[0], $firstCardMult[1])
+   $baselineNewCardTab = PixelGetColor($newCardTab[0], $newCardTab[1])
+   $baselineSecondCard = PixelGetColor($firstCard[0] + $secondCardIncrement, $firstCard[1])
+EndFunc
 
 ; Checks that the currently selected mana cost filter is appropriate
 Func checkManaCostFilter($manaCost)
@@ -26,25 +40,76 @@ Func checkManaCostFilter($manaCost)
    EndIf
 EndFunc
 
-; Enter the card name and description in the search box and hit enter
-Func searchForCard($card)
+; Takes a card array and returns the search term for it, which includes the card description if possible
+Func getSearchTerm($card)
    ; Search term is card name + card description
-   $searchTerm = $card[2]
+   Local $searchTerm = $card[2]
 
    ; Check that card description exists before adding to search term
    If $card[0] == 3 Then
 	  $searchTerm = $searchTerm & " " & $card[3]
    EndIf
 
-   ; Do the search
-   MouseClick("left", 935,990)
-   ClipPut($searchTerm)
+   Return $searchTerm
+EndFunc
+
+; Enter the card name and description in the search box and hit enter
+Func searchForCard($searchTerm)
+   MouseClick("left", 935,990) ; Click on search box
+   ClipPut($searchTerm) ; Put the search term on the clipboard
    Sleep(10)
-   Send("^v")
-   Send("{ENTER}")
+   Send("^v") ; Paste
+   Send("{ENTER}") ; Hit Enter
+   Sleep(100)
+EndFunc
+
+; Checks if the card is new and hovers over it if it is
+Func checkForNewCardTab()
+   Sleep(500)
+   Local $currentNewCardTab = PixelGetColor($newCardTab[0], $newCardTab[1])
+   Local $isNew = $baselineNewCardTab <> $currentNewCardTab
+
+   If $isNew Then
+	  MouseMove($firstCard[0], $firstCard[1])
+   EndIf
+
+   Return $isNew
+EndFunc
+
+Func readScreenForCards()
+   Local $numberOfCards = 0
+
+   ; Current colours to compare to baseline
+   Local $currentFirstCard = PixelGetColor($firstCard[0], $firstCard[1])
+   Local $currentFirstCardMult = PixelGetColor($firstCardMult[0], $firstCardMult[1])
+   Local $currentSecondCard = PixelGetColor($firstCard[0] + $secondCardIncrement, $firstCard[1])
+
+   If $baselineFirstCard <> $currentFirstCard Then
+	  $numberOfCards = 1 ; At least one card is detected
+
+	  If $baselineSecondCard <> $currentSecondCard Then
+		 Return 2 ; No need to check if the card is new
+	  EndIf
+
+	  If $baselineFirstCardMult <> $currentFirstCardMult Then
+		 ; This pixel could be a false positive if the card is new
+		 ;Local $wasNew = checkForNewCardTab()
+
+		 ; Rather than check of edge cases, just do the whole check over now that the card is not new anymore
+		 ;If $wasNew Then
+			;Return readScreenForCards()
+		 ;EndIf
+
+		 $numberOfCards = 2
+	  EndIf
+   EndIf
+
+   Return $numberOfCards
 EndFunc
 
 Func readCollection()
+   getBaselineColours()
+
    While 1
 	  local $card = FileReadLine($inputFile)
 	  If @error = -1 Then ExitLoop
@@ -54,11 +119,13 @@ Func readCollection()
 
 	  checkManaCostFilter($card[1])
 
-	  searchForCard($card)
+	  Local $searchTerm = getSearchTerm($card)
 
-	  Sleep(100)
+	  searchForCard($searchTerm)
 
-	  ; TODO: Check if the card exists
+	  Local $numberOfCopies = readScreenForCards()
+
+	  MsgBox(1, "", $numberOfCopies)
 
    Wend
 
