@@ -1,5 +1,5 @@
 Dim $inputFile = FileOpen("allCards.txt")
-Dim $outputFile = FileOpen("ownedCards.txt")
+Dim $outputFile
 Dim $currentManaCost = -1
 
 ; Rather than have a static coord for all mana cost filters,
@@ -16,6 +16,13 @@ Dim $secondCardIncrement = 245 ; How much to add to the X axis from the first ca
 Dim $baselineFirstCard
 Dim $baselineFirstCardMult
 Dim $baselineSecondCard
+
+Func startJsonFile()
+   Local $fileName = "ownedCards.json"
+   FileDelete($fileName)
+   $outputFile = FileOpen($fileName, 1)
+   FileWriteLine($outputFile, "{")
+EndFunc
 
 ; Record a baseline of colours for each coord
 Func recordBaselineColours()
@@ -122,8 +129,27 @@ Func readScreenForCards()
    Return $numberOfCards
 EndFunc
 
+Dim $isFirstLine = True
+Func logCard($cardName, $numberOfCopies)
+   If $numberOfCopies < 1 Then
+	  Return
+   EndIf
+
+   If Not $isFirstLine Then
+	  FileWrite($outputFile, "," & @CRLF) ; start a new line
+   EndIf
+
+   FileWrite($outputFile, "  ") ;indent
+   FileWrite($outputFile, '"' & $cardName & '": ' & $numberOfCopies)
+
+   $isFirstLine = False
+EndFunc
+
 Func readCollection()
    recordBaselineColours()
+
+   ; start the json file
+   startJsonFile()
 
    While 1
 	  local $card = FileReadLine($inputFile)
@@ -140,13 +166,18 @@ Func readCollection()
 
 	  Local $numberOfCopies = readScreenForCards()
 
-	  ConsoleWrite($card[2] & ": " & $numberOfCopies & @CRLF)
+	  logCard($card[2], $numberOfCopies)
    Wend
 
+   FileWrite($outputFile, @CRLF & "}")
+
    FileClose($inputFile)
+   FileClose($outputFile)
 EndFunc
 
 Func terminate()
+   FileClose($inputFile)
+   FileClose($outputFile)
    Exit
 EndFunc
 
