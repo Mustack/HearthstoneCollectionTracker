@@ -5,30 +5,43 @@ Dim $currentManaCost = -1
 ; Rather than have a static coord for all mana cost filters,
 ; we have the first one and increment by X amount for each one after that.
 Dim $initialManaCoord[2] = [405,990]
-Dim $manaCostIncrement = 45
+Dim $manaCostIncrement = 50
 
 Dim $firstCard[2] = [335,205] ; Coord of first card
 Dim $firstCardMult[2] = [405,530] ; Coord of first card's "X2"
-Dim $newCardTab[2] = [339, 50]
+Dim $searchBox[2] = [935,990]
 Dim $secondCardIncrement = 245 ; How much to add to the X axis from the first card to read the second card
 
 ; Baseline colours for each coord used to determine if a card is present on screen
 Dim $baselineFirstCard
 Dim $baselineFirstCardMult
-Dim $baselineNewCardTab
 Dim $baselineSecondCard
 
 ; Record a baseline of colours for each coord
-Func getBaselineColours()
+Func recordBaselineColours()
    ; Search for giberish so we know no cards are present on screen
    searchForCard("not a card igbaugyasdvtfyuasdtvfia")
 
-   Sleep(1500)
+   Sleep(500)
 
    $baselineFirstCard = PixelGetColor($firstCard[0], $firstCard[1])
    $baselineFirstCardMult = PixelGetColor($firstCardMult[0], $firstCardMult[1])
-   $baselineNewCardTab = PixelGetColor($newCardTab[0], $newCardTab[1])
    $baselineSecondCard = PixelGetColor($firstCard[0] + $secondCardIncrement, $firstCard[1])
+EndFunc
+
+; This baseline is tricky, we can't establish it until we make sure we have a card
+; with an X2 multiplier that is not new.
+Dim $baselineNewCard = -1
+Func getBaselineNewCard()
+   If $baselineNewCard > -1 Then
+	  return $baselineNewCard
+   EndIf
+
+   ; We hover over the card to make sure it's not new
+   MouseMove($firstCard[0], $firstCard[1])
+
+   $baselineNewCard = PixelGetColor($firstCardMult[0], $firstCardMult[1])
+   Return $baselineNewCard
 EndFunc
 
 ; Checks that the currently selected mana cost filter is appropriate
@@ -55,7 +68,7 @@ EndFunc
 
 ; Enter the card name and description in the search box and hit enter
 Func searchForCard($searchTerm)
-   MouseClick("left", 935,990) ; Click on search box
+   MouseClick("left", $searchBox[0], $searchBox[1]) ; Click on search box
    ClipPut($searchTerm) ; Put the search term on the clipboard
    Sleep(10)
    Send("^v") ; Paste
@@ -64,13 +77,15 @@ Func searchForCard($searchTerm)
 EndFunc
 
 ; Checks if the card is new and hovers over it if it is
-Func checkForNewCardTab()
-   Sleep(500)
-   Local $currentNewCardTab = PixelGetColor($newCardTab[0], $newCardTab[1])
-   Local $isNew = $baselineNewCardTab <> $currentNewCardTab
+Func checkForNewCard()
+   ; The colour on the multiplier should be different from what it normally is if the card is new
+   Local $currentNewCard = PixelGetColor($firstCardMult[0], $firstCardMult[1])
+   Local $_baselineNewCard = getBaselineNewCard()
+   Local $isNew = $_baselineNewCard <> $currentNewCard
 
    If $isNew Then
 	  MouseMove($firstCard[0], $firstCard[1])
+	  MouseMove($searchBox[0], $searchBox[1])
    EndIf
 
    Return $isNew
@@ -93,12 +108,12 @@ Func readScreenForCards()
 
 	  If $baselineFirstCardMult <> $currentFirstCardMult Then
 		 ; This pixel could be a false positive if the card is new
-		 ;Local $wasNew = checkForNewCardTab()
+		 Local $wasNew = checkForNewCard()
 
 		 ; Rather than check of edge cases, just do the whole check over now that the card is not new anymore
-		 ;If $wasNew Then
-			;Return readScreenForCards()
-		 ;EndIf
+		 If $wasNew Then
+			Return readScreenForCards()
+		 EndIf
 
 		 $numberOfCards = 2
 	  EndIf
@@ -108,7 +123,7 @@ Func readScreenForCards()
 EndFunc
 
 Func readCollection()
-   getBaselineColours()
+   recordBaselineColours()
 
    While 1
 	  local $card = FileReadLine($inputFile)
@@ -125,8 +140,7 @@ Func readCollection()
 
 	  Local $numberOfCopies = readScreenForCards()
 
-	  MsgBox(1, "", $numberOfCopies)
-
+	  ConsoleWrite($card[2] & ": " & $numberOfCopies & @CRLF)
    Wend
 
    FileClose($inputFile)
