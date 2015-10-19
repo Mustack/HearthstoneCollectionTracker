@@ -1,41 +1,64 @@
+$inputFile = FileOpen("allCards.txt")
+$outputFile = FileOpen("ownedCards.txt")
+$currentManaCost = -1
+
+; Rather than have a static coord for all mana cost filters,
+; we have the first one and increment by X amount for each one after that.
+Dim $initialManaCoord[2] = [405,990]
+Dim $manaCostIncrement = 45
+
+Dim $firstCard[2] = [335,205] ; Coord of first card
+Dim $firstCardMult[2] = [440,505] ; Coord of first card's "X2"
+Dim $secondCardIncrement = 245 ; How much to add to the X axis from the first card to read the second card
+
+; Baseline colours for each coord used to determine if a card is present on screen
+Dim $baselineFirstCard
+Dim $baselineFirstCardMult
+Dim $baselineSecondCard
+Dim $baselineSecondCardMult
+
+; Checks that the currently selected mana cost filter is appropriate
+Func checkManaCostFilter($manaCost)
+   If $manaCost <> $currentManaCost Then
+	  MouseClick("left", $initialManaCoord[0] + $manaCostIncrement * $manaCost, $initialManaCoord[1])
+	  $currentManaCost = $manaCost
+	  Sleep(200) ; Otherwise it goes back to searching before it clicks some times
+   EndIf
+EndFunc
+
+; Enter the card name and description in the search box and hit enter
+Func searchForCard($card)
+   ; Search term is card name + card description
+   $searchTerm = $card[2]
+
+   ; Check that card description exists before adding to search term
+   If $card[0] == 3 Then
+	  $searchTerm = $searchTerm & " " & $card[3]
+   EndIf
+
+   ; Do the search
+   MouseClick("left", 935,990)
+   ClipPut($searchTerm)
+   Sleep(10)
+   Send("^v")
+   Send("{ENTER}")
+EndFunc
+
 Func readCollection()
-   $inputFile = FileOpen("allCards.txt")
-   $currentManaCost = -1
-
-   Local $initialManaCoord[2] = [405,990]
-   Local $firstCard[2] = [335,205]
-   Local $firstCardMult[2] = [440,505]
-   Local $secondCard[2] = [580,207]
-   $manaCostIncrement = 45
-
    While 1
-	  $card = FileReadLine($inputFile)
+	  local $card = FileReadLine($inputFile)
 	  If @error = -1 Then ExitLoop
 
+	  ; $card is an array of card data [manaCost, Name, Description]
 	  $card = StringSplit($card, "$")
 
-	  ; Check the mana cost
-	  If $card[1] <> $currentManaCost Then
-		 MouseClick("left", $initialManaCoord[0] + $manaCostIncrement * $card[1], $initialManaCoord[1])
-		 $currentManaCost = $card[1]
-		 Sleep(200) ; Otherwise it goes back to searching before it clicks some times
-	  EndIf
+	  checkManaCostFilter($card[1])
 
-	  ; Search term is card name + card text
-	  $searchTerm = $card[2]
-	  If $card[0] == 3 Then
-		 $searchTerm = $searchTerm & " " & $card[3]
-	  EndIf
+	  searchForCard($card)
 
-	  ; Do the search
-	  MouseClick("left", 935,990)
-	  ClipPut($searchTerm)
-	  Sleep(10)
-	  Send("^v")
-	  Send("{ENTER}")
 	  Sleep(100)
 
-	  ;Check if the card exists
+	  ; TODO: Check if the card exists
 
    Wend
 
