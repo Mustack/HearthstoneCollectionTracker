@@ -1,0 +1,698 @@
+0$Circle of Healing$Restore 4 Health to ALL minions.
+0$Inner Rage$Deal 1 damage to a minion and give it +2 Attack.
+0$Preparation$The next spell you cast this turn costs (3) less.
+0$Shadowstep$Return a friendly minion to your hand. It costs (2) less.
+0$Silence$Silence a minion.
+0$Wisp
+0$Target Dummy$Taunt
+0$Ancestral Healing$Restore a minion to full Health and give it Taunt.
+0$Backstab$Deal 2 damage to an undamaged minion.
+0$Hunter's Mark$Change a minion's Health to 1.
+0$Innervate$Gain 2 Mana Crystals this turn only.
+0$Moonfire$Deal 1 damage.
+0$Sacrificial Pact$Destroy a Demon. Restore 5 Health to your hero.
+0$Totemic Might$Give your Totems +2 Health.
+1$Dragon Egg$Whenever this minion takes damage, summon a 2/1 Whelp.
+1$Twilight Whelp$Battlecry: If you're holding a Dragon, gain +2 Health.
+1$Abusive Sergeant$Battlecry: Give a minion +2 Attack this turn.
+1$Angry Chicken$Enrage: +5 Attack.
+1$Argent Squire$Divine Shield
+1$Bestial Wrath$Give a friendly Beast +2 Attack and Immune this turn.
+1$Blessing of Wisdom$Choose a minion. Whenever it attacks, draw a card.
+1$Blood Imp$Stealth. At the end of your turn, give another random friendly minion +1 Health.
+1$Bloodsail Corsair$Battlecry: Remove 1 Durability from your opponent's weapon.
+1$Cold Blood$Give a minion +2 Attack. Combo: +4 Attack instead.
+1$Conceal$Give your minions Stealth until your next turn.
+1$Dust Devil$Windfury. Overload: (2)
+1$Earth Shock$Silence a minion, then deal 1 damage to it.
+1$Eye for an Eye$Secret: When your hero takes damage, deal that much damage to the enemy hero.
+1$Flame Imp$Battlecry: Deal 3 damage to your hero.
+1$Forked Lightning$Deal 2 damage to 2 random enemy minions. Overload: (2)
+1$Hungry Crab$Battlecry: Destroy a Murloc and gain +2/+2.
+1$Ice Lance$Freeze a character. If it was already Frozen, deal 4 damage instead.
+1$Inner Fire$Change a minion's Attack to be equal to its Health.
+1$Leper Gnome$Deathrattle: Deal 2 damage to the enemy hero.
+1$Lightning Bolt$Deal 3 damage. Overload: (1)
+1$Lightwarden$Whenever a character is healed, gain +2 Attack.
+1$Mana Wyrm$Whenever you cast a spell, gain +1 Attack.
+1$Murloc Tidecaller$Whenever a Murloc is summoned, gain +1 Attack.
+1$Naturalize$Destroy a minion. Your opponent draws 2 cards.
+1$Noble Sacrifice$Secret: When an enemy attacks, summon a 2/1 Defender as the new target.
+1$Power Overwhelming$Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.
+1$Redemption$Secret: When one of your minions dies, return it to life with 1 Health.
+1$Repentance$Secret: When your opponent plays a minion, reduce its Health to 1.
+1$Savagery$Deal damage equal to your hero's Attack to a minion.
+1$Secretkeeper$Whenever a Secret is played, gain +1/+1.
+1$Shield Slam$Deal 1 damage to a minion for each Armor you have.
+1$Shieldbearer$Taunt
+1$Southsea Deckhand$Has Charge while you have a weapon equipped.
+1$Upgrade!$If you have a weapon, give it +1/+1. Otherwise equip a 1/3 weapon.
+1$Worgen Infiltrator$Stealth
+1$Young Dragonhawk$Windfury
+1$Young Priestess$At the end of your turn, give another random friendly minion +1 Health.
+1$Clockwork Gnome$Deathrattle: Add a Spare Part card to your hand.
+1$Cogmaster$Has +2 Attack while you have a Mech.
+1$Light of the Naaru$Restore 3 Health. If the target is still damaged, summon a Lightwarden.
+1$Shadowbomber$Battlecry: Deal 3 damage to each hero.
+1$Warbot$Enrage: +1 Attack.
+1$Arcane Blast$Deal 2 damage to a minion. This spell gets double bonus from Spell Damage.
+1$Brave Archer$Inspire: If your hand is empty, deal 2 damage to the enemy hero.
+1$Buccaneer$Whenever you equip a weapon, give it +1 Attack.
+1$Competitive Spirit$Secret: When your turn starts, give your minions +1/+1.
+1$Flash Heal$Restore 5 Health.
+1$Gadgetzan Jouster$Battlecry: Reveal a minion in each deck. If yours costs more, gain +1/+1.
+1$Injured Kvaldir$Battlecry: Deal 3 damage to this minion.
+1$Living Roots$Choose One - Deal 2 damage; or Summon two 1/1 Saplings.
+1$Lowly Squire$Inspire: Gain +1 Attack.
+1$Power Word: Glory$Choose a minion. Whenever it attacks, restore 4 Health toyour hero.
+1$Tournament Attendee$Taunt
+1$Arcane Missiles$Deal 3 damage randomly split among all enemies.
+1$Arcane Shot$Deal 2 damage.
+1$Blessing of Might$Give a minion +3 Attack.
+1$Claw$Give your hero +2 Attack this turn and 2 Armor.
+1$Corruption$Choose an enemy minion. At the start of your turn, destroy it.
+1$Deadly Poison$Give your weapon +2 Attack.
+1$Elven Archer$Battlecry: Deal 1 damage.
+1$Execute$Destroy a damaged enemy minion.
+1$Frost Shock$Deal 1 damage to an enemy character and Freeze it.
+1$Goldshire Footman$Taunt
+1$Grimscale Oracle$ALL other Murlocs have +1 Attack.
+1$Hand of Protection$Give a minion Divine Shield.
+1$Holy Smite$Deal 2 damage.
+1$Humility$Change a minion's Attack to 1.
+1$Light's Justice
+1$Mind Vision$Put a copy of a random card in your opponent's hand into your hand.
+1$Mirror Image$Summon two 0/2 minions with Taunt.
+1$Mortal Coil$Deal 1 damage to a minion. If that kills it, draw a card.
+1$Murloc Raider
+1$Northshire Cleric$Whenever a minion is healed, draw a card.
+1$Power Word: Shield$Give a minion +2 Health.Draw a card.
+1$Rockbiter Weapon$Give a friendly character +3 Attack this turn.
+1$Sinister Strike$Deal 3 damage to the enemy hero.
+1$Soulfire$Deal 4 damage. Discard a random card.
+1$Stonetusk Boar$Charge
+1$Timber Wolf$Your other Beasts have +1 Attack.
+1$Tracking$Look at the top three cards of your deck. Draw one and discard the others.
+1$Voidwalker$Taunt
+1$Voodoo Doctor$Battlecry: Restore 2 Health.
+1$Whirlwind$Deal 1 damage to ALL minions.
+1$Avenge$Secret: When one of your minions dies, give a random friendly minion +3/+2.
+1$Undertaker$Whenever you summon a minion with Deathrattle, gain +1 Attack.
+1$Webspinner$Deathrattle: Add a random Beast card to your hand.
+1$Zombie Chow$Deathrattle: Restore 5 Health to the enemy hero.
+2$Gang Up$Choose a minion. Shuffle 3 copies of it into your deck.
+2$Lava Shock$Deal 2 damage.Unlock your Overloaded Mana Crystals.
+2$Quick Shot$Deal 3 damage.If your hand is empty, draw a card.
+2$Resurrect$Summon a random friendly minion that died this game.
+2$Revenge$Deal 1 damage to all minions. If you have 12 or less Health, deal 3 damage instead.
+2$Amani Berserker$Enrage: +3 Attack
+2$Ancestral Spirit$Give a minion "Deathrattle: Resummon this minion."
+2$Ancient Watcher$Can't attack.
+2$Argent Protector$Battlecry: Give a friendly minion Divine Shield.
+2$Armorsmith$Whenever a friendly minion takes damage, gain 1 Armor.
+2$Battle Rage$Draw a card for each damaged friendly character.
+2$Betrayal$Force an enemy minion to deal its damage to the minions next to it.
+2$Blade Flurry$Destroy your weapon and deal its damage to all enemies.
+2$Bloodmage Thalnos$Spell Damage +1. Deathrattle: Draw a card.
+2$Bloodsail Raider$Battlecry: Gain Attack equal to the Attack of your weapon.
+2$Commanding Shout$Your minions can't be reduced below 1 Health this turn. Draw a card.
+2$Crazed Alchemist$Battlecry: Swap the Attack and Health of a minion.
+2$Cruel Taskmaster$Battlecry: Deal 1 damage to a minion and give it +2 Attack.
+2$Defias Ringleader$Combo: Summon a 2/1 Defias Bandit.
+2$Demonfire$Deal 2 damage to a minion. If it’s a friendly Demon, give it +2/+2 instead.
+2$Dire Wolf Alpha$Adjacent minions have +1 Attack.
+2$Doomsayer$At the start of your turn, destroy ALL minions.
+2$Equality$Change the Health of ALL minions to 1.
+2$Eviscerate$Deal 2 damage. Combo: Deal 4 damage instead.
+2$Explosive Trap$Secret: When your hero is attacked, deal 2 damage to all enemies.
+2$Faerie Dragon$Can't be targeted by spells or Hero Powers.
+2$Flare$All minions lose Stealth. Destroy all enemy Secrets. Draw a card.
+2$Freezing Trap$Secret: When an enemy minion attacks, return it to its owner's hand and it costs (2) more.
+2$Ironbeak Owl$Battlecry: Silence a minion.
+2$Knife Juggler$After you summon a minion, deal 1 damage to a random enemy.
+2$Lightwell$At the start of your turn, restore 3 Health to a damaged friendly character.
+2$Loot Hoarder$Deathrattle: Draw a card.
+2$Lorewalker Cho$Whenever a player casts a spell, put a copy into the other player’s hand.
+2$Mad Bomber$Battlecry: Deal 3 damage randomly split between all other characters.
+2$Mana Addict$Whenever you cast a spell, gain +2 Attack this turn.
+2$Mana Wraith$ALL minions cost (1) more.
+2$Master Swordsmith$At the end of your turn, give another random friendly minion +1 Attack.
+2$Millhouse Manastorm$Battlecry: Enemy spells cost (0) next turn.
+2$Misdirection$Secret: When a character attacks your hero, instead he attacks another random character.
+2$Nat Pagle$At the start of your turn, you have a 50% chance to draw an extra card.
+2$Patient Assassin$Stealth. Destroy any minion damaged by this minion.
+2$Pint-Sized Summoner$The first minion you play each turn costs (1) less.
+2$Power of the Wild$Choose One - Give your minions +1/+1; or Summon a 3/2 Panther.
+2$Rampage$Give a damaged minion +3/+3.
+2$Scavenging Hyena$Whenever a friendly Beast dies, gain +2/+1.
+2$Slam$Deal 2 damage to a minion. If it survives, draw a card.
+2$Snake Trap$Secret: When one of your minions is attacked, summon three 1/1 Snakes.
+2$Snipe$Secret: When your opponent plays a minion, deal 4 damage to it.
+2$Sorcerer's Apprentice$Your spells cost (1) less.
+2$Stormforged Axe$Overload: (1)
+2$Sunfury Protector$Battlecry: Give adjacent minions Taunt.
+2$Wild Pyromancer$After you cast a spell, deal 1 damage to ALL minions.
+2$Wrath$Choose One - Deal 3 damage to a minion; or 1 damage and draw a card.
+2$Youthful Brewmaster$Battlecry: Return a friendly minion from the battlefield to your hand.
+2$Annoy-o-Tron$TauntDivine Shield
+2$Anodized Robo Cub$Taunt. Choose One -+1 Attack; or +1 Health.
+2$Call Pet$Draw a card.If it's a Beast, it costs (4) less.
+2$Crackle$Deal 3-6 damage. Overload: (1)
+2$Darkbomb$Deal 3 damage.
+2$Explosive Sheep$Deathrattle: Deal 2 damage to all minions.
+2$Feign Death$Trigger all Deathrattles on your minions.
+2$Flamecannon$Deal 4 damage to a random enemy minion.
+2$Gilblin Stalker$Stealth
+2$Glaivezooka$Battlecry: Give a random friendly minion +1 Attack.
+2$Goblin Auto-Barber$Battlecry: Give your weapon +1 Attack.
+2$Mechwarper$Your Mechs cost (1) less.
+2$Micro Machine$At the start of each turn, gain +1 Attack.
+2$Mistress of Pain$Whenever this minion deals damage, restore that much Health to your hero.
+2$One-eyed Cheat$Whenever you summon a Pirate, gain Stealth.
+2$Puddlestomper
+2$Recombobulator$Battlecry: Transform a friendly minion into a random minion with the same Cost.
+2$Seal of Light$Restore 4 Health to your hero and gain +2 Attack this turn.
+2$Shadowboxer$Whenever a character is healed, deal 1 damage to a random enemy.
+2$Shielded Minibot$Divine Shield
+2$Ship's Cannon$Whenever you summon a Pirate, deal 2 damage to a random enemy.
+2$Shrinkmeister$Battlecry: Give a minion -2 Attack this turn.
+2$Snowchugger$Freeze any character damaged by this minion.
+2$Steamwheedle Sniper$Your Hero Power can target minions.
+2$Stonesplinter Trogg$Whenever your opponent casts a spell, gain +1 Attack.
+2$Unstable Portal$Add a random minion to your hand. It costs (3) less.
+2$Vitality Totem$At the end of your turn, restore 4 Health to your hero.
+2$Whirling Zap-o-matic$Windfury
+2$Alexstrasza's Champion$Battlecry: If you're holding a Dragon, gain +1 Attack and Charge.
+2$Ancestral Knowledge$Draw 2 cards. Overload: (2)
+2$Argent Lance$Battlecry: Reveal a minion in each deck. If yours costs more, +1 Durability.
+2$Argent Watchman$Can't attack.Inspire: Can attack as normal this turn.
+2$Bear Trap$Secret: After your hero is attacked, summon a 3/3 Bear with Taunt.
+2$Bolster$Give your Taunt minions +2/+2.
+2$Boneguard Lieutenant$Inspire: Gain +1 Health.
+2$Confuse$Swap the Attack and Health of all minions.
+2$Convert$Put a copy of an enemy minion into your hand.
+2$Cutpurse$Whenever this minion attacks a hero, add the Coin to your hand.
+2$Darnassus Aspirant$Battlecry: Gain an empty Mana Crystal.Deathrattle: Lose a Mana Crystal.
+2$Demonfuse$Give a Demon +3/+3. Give your opponent a Mana Crystal.
+2$Druid of the Saber$Choose One - Transform to gain Charge; or +1/+1 and Stealth.
+2$Fallen Hero$Your Hero Power deals 1 extra damage.
+2$Flame Juggler$Battlecry: Deal 1 damage to a random enemy.
+2$Garrison Commander$You can use your Hero Power twice a turn.
+2$King's Elekk$Battlecry: Reveal a minion in each deck. If yours costs more, draw it.
+2$Lance Carrier$Battlecry: Give a friendly minion +2 Attack.
+2$Lock and Load$Each time you cast a spell this turn, add a random Hunter card to your hand.
+2$Sparring Partner$TauntBattlecry: Give aminion Taunt.
+2$Tiny Knight of Evil$Whenever you discard a card, gain +1/+1.
+2$Totem Golem$Overload: (1)
+2$Undercity Valiant$Combo: Deal 1 damage.
+2$Wrathguard$Whenever this minion takes damage, also deal that amount to your hero.
+2$Wyrmrest Agent$Battlecry: If you're holding a Dragon, gain +1 Attack and Taunt.
+2$Captain's Parrot$Battlecry: Put a random Pirate from your deck into your hand.
+2$Acidic Swamp Ooze$Battlecry: Destroy your opponent's weapon.
+2$Arcane Explosion$Deal 1 damage to all enemy minions.
+2$Bloodfen Raptor
+2$Bluegill Warrior$Charge
+2$Cleave$Deal 2 damage to two random enemy minions.
+2$Divine Spirit$Double a minion's Health.
+2$Fiery War Axe
+2$Flametongue Totem$Adjacent minions have +2 Attack.
+2$Frostbolt$Deal 3 damage to a character and Freeze it.
+2$Frostwolf Grunt$Taunt
+2$Heroic Strike$Give your hero +4 Attack this turn.
+2$Holy Light$Restore 6 Health.
+2$Kobold Geomancer$Spell Damage +1
+2$Mark of the Wild$Give a minion Taunt and +2/+2. (+2 Attack/+2 Health)
+2$Mind Blast$Deal 5 damage to the enemy hero.
+2$Murloc Tidehunter$Battlecry: Summon a 1/1 Murloc Scout.
+2$Novice Engineer$Battlecry: Draw a card.
+2$River Crocolisk
+2$Sap$Return an enemy minion to your opponent's hand.
+2$Shadow Word: Pain$Destroy a minion with 3 or less Attack.
+2$Shiv$Deal 1 damage. Draw a card.
+2$Succubus$Battlecry: Discard a random card.
+2$Wild Growth$Gain an empty Mana Crystal.
+2$Windfury$Give a minion Windfury.
+2$Echoing Ooze$Battlecry: Summon an exact copy of this minion at the end of the turn.
+2$Haunted Creeper$Deathrattle: Summon two 1/1 Spectral Spiders.
+2$Mad Scientist$Deathrattle: Put a Secret from your deck into the battlefield.
+2$Nerub'ar Weblord$Minions with Battlecry cost (2) more.
+2$Nerubian Egg$Deathrattle: Summon a 4/4 Nerubian.
+2$Reincarnate$Destroy a minion, then return it to life with full Health.
+2$Unstable Ghoul$Taunt. Deathrattle: Deal 1 damage to all minions.
+3$Blackwing Technician$Battlecry: If you're holding a Dragon, gain +1/+1.
+3$Demonwrath$Deal 2 damage to all non-Demon minions.
+3$Druid of the Flame$Choose One - Transform into a 5/2 minion; or a 2/5 minion.
+3$Flamewaker$After you cast a spell, deal 2 damage randomly split among all enemies.
+3$Imp Gang Boss$Whenever this minion takes damage, summon a 1/1 Imp.
+3$Acolyte of Pain$Whenever this minion takes damage, draw a card.
+3$Alarm-o-Bot$At the start of your turn, swap this minion with a random one in your hand.
+3$Aldor Peacekeeper$Battlecry: Change an enemy minion's Attack to 1.
+3$Arcane Golem$Charge. Battlecry: Give your opponent a Mana Crystal.
+3$Big Game Hunter$Battlecry: Destroy a minion with an Attack of 7 or more.
+3$Blood Knight$Battlecry: All minions lose Divine Shield. Gain +3/+3 for each Shield lost.
+3$Coldlight Oracle$Battlecry: Each player draws 2 cards.
+3$Coldlight Seer$Battlecry: Give ALL other Murlocs +2 Health.
+3$Counterspell$Secret: When your opponent casts a spell, Counter it.
+3$Deadly Shot$Destroy a random enemy minion.
+3$Demolisher$At the start of your turn, deal 2 damage to a random enemy.
+3$Divine Favor$Draw cards until you have as many in hand as your opponent.
+3$Eaglehorn Bow$Whenever a friendly Secret is revealed, gain +1 Durability.
+3$Earthen Ring Farseer$Battlecry: Restore 3 Health.
+3$Edwin VanCleef$Combo: Gain +2/+2 for each card played earlier this turn.
+3$Emperor Cobra$Destroy any minion damaged by this minion.
+3$Far Sight$Draw a card. That card costs (3) less.
+3$Felguard$Taunt. Battlecry: Destroy one of your Mana Crystals.
+3$Feral Spirit$Summon two 2/3 Spirit Wolves with Taunt. Overload: (2)
+3$Flesheating Ghoul$Whenever a minion dies, gain +1 Attack.
+3$Frothing Berserker$Whenever a minion takes damage, gain +1 Attack.
+3$Harvest Golem$Deathrattle: Summon a 2/1 Damaged Golem.
+3$Headcrack$Deal 2 damage to the enemy hero. Combo: Return this to your hand next turn.
+3$Ice Barrier$Secret: When your hero is attacked, gain 8 Armor.
+3$Ice Block$Secret: When your hero takes fatal damage, prevent it and become Immune this turn.
+3$Imp Master$At the end of your turn, deal 1 damage to this minion and summon a 1/1 Imp.
+3$Injured Blademaster$Battlecry: Deal 4 damage to HIMSELF.
+3$Jungle Panther$Stealth
+3$King Mukla$Battlecry: Give your opponent 2 Bananas.
+3$Kirin Tor Mage$Battlecry: The next Secret you play this turn costs (0).
+3$Lava Burst$Deal 5 damage. Overload: (2)
+3$Lightning Storm$Deal 2-3 damage to all enemy minions. Overload: (2)
+3$Mana Tide Totem$At the end of your turn, draw a card.
+3$Mark of Nature$Choose One - Give a minion +4 Attack; or +4 Health and Taunt.
+3$Mind Control Tech$Battlecry: If your opponent has 4 or more minions, take control of one at random.
+3$Mirror Entity$Secret: When your opponent plays a minion, summon a copy of it.
+3$Murloc Warleader$ALL other Murlocs have +2/+1.
+3$Perdition's Blade$Battlecry: Deal 1 damage. Combo: Deal 2 instead.
+3$Questing Adventurer$Whenever you play a card, gain +1/+1.
+3$Raging Worgen$Enrage: Windfury and +1 Attack
+3$SI:7 Agent$Combo: Deal 2 damage.
+3$Scarlet Crusader$Divine Shield
+3$Sense Demons$Put 2 random Demons from your deck into your hand.
+3$Shadowform$Your Hero Power becomes 'Deal 2 damage'. If already in Shadowform: 3 damage.
+3$Southsea Captain$Your other Pirates have +1/+1.
+3$Spellbender$Secret: When an enemy casts a spell on a minion, summon a 1/3 as the new target.
+3$Sword of Justice$Whenever you summon a minion, give it +1/+1 and this loses 1 Durability.
+3$Tauren Warrior$Taunt. Enrage: +3 Attack
+3$Thoughtsteal$Copy 2 cards from your opponent's deck and put them into your hand.
+3$Thrallmar Farseer$Windfury
+3$Tinkmaster Overspark$Battlecry: Transform another random minion into a 5/5 Devilsaur or a 1/1 Squirrel.
+3$Unbound Elemental$Whenever you play a card with Overload, gain +1/+1.
+3$Unleash the Hounds$For each enemy minion, summon a 1/1 Hound with Charge.
+3$Vaporize$Secret: When a minion attacks your hero, destroy it.
+3$Void Terror$Battlecry: Destroy the minions on either side of this minion and gain their Attack and Health.
+3$Bouncing Blade$Deal 1 damage to a random minion. Repeat until a minion dies.
+3$Coghammer$Battlecry: Give a random friendly minion Divine Shield and Taunt.
+3$Cogmaster's Wrench$Has +2 Attack while you have a Mech.
+3$Flying Machine$Windfury
+3$Gnomeregan Infantry$ChargeTaunt
+3$Gnomish Experimenter$Battlecry: Draw a card. If it's a minion, transform it into a Chicken.
+3$Goblin Sapper$Has +4 Attack while your opponent has 6 or more cards in hand.
+3$Grove Tender$Choose One - Give each player a Mana Crystal; or Each player draws a card.
+3$Hobgoblin$Whenever you play a 1-Attack minion, give it +2/+2.
+3$Illuminator$If you control a Secret at the end of your turn, restore 4 health to your hero.
+3$Iron Sensei$At the end of your turn, give another friendly Mech +2/+2.
+3$Lil' Exorcist$TauntBattlecry: Gain +1/+1 for each enemy Deathrattle minion.
+3$Metaltooth Leaper$Battlecry: Give your other Mechs +2 Attack.
+3$Muster for Battle$Summon three 1/1 Silver Hand Recruits. Equip a 1/4 Weapon.
+3$Ogre Brute$50% chance to attack the wrong enemy.
+3$Ogre Warmaul$50% chance to attack the wrong enemy.
+3$Powermace$Deathrattle: Give a random friendly Mech +2/+2.
+3$Scarlet Purifier$Battlecry: Deal 2 damage to all minions with Deathrattle.
+3$Soot Spewer$Spell Damage +1
+3$Spider Tank
+3$Tinkertown Technician$Battlecry: If you have a Mech, gain +1/+1 and add a Spare Part to your hand.
+3$Velen's Chosen$Give a minion +2/+4 and Spell Damage +1.
+3$Argent Horserider$ChargeDivine Shield
+3$Bash$Deal 3 damage.Gain 3 Armor.
+3$Beneath the Grounds$Shuffle 3 Ambushes into your opponent's deck. When drawn, you summon a 4/4 Nerubian.
+3$Burgle$Add 2 random class cards to your hand (from your opponent's class).
+3$Coliseum Manager$Inspire: Return this minion to your hand.
+3$Dragonhawk Rider$Inspire: Gain Windfurythis turn.
+3$Dreadscale$At the end of your turn, deal 1 damage to all other minions.
+3$Effigy$Secret: When a friendly minion dies, summon a random minion with the same Cost.
+3$Elemental Destruction$Deal 4-5 damage to all minions. Overload: (5)
+3$Eydis Darkbane$Whenever you target this minion with a spell, deal 3 damage to a random enemy.
+3$Fencing Coach$Battlecry: The next time you use your Hero Power, it costs (2) less.
+3$Fjola Lightbane$Whenever you target this minion with a spell, gain Divine Shield.
+3$Healing Wave$Restore 7 Health. Reveal a minion in each deck. If yours costs more, Restore 14 instead.
+3$Ice Rager
+3$King's Defender$Battlecry: If you have a minion with Taunt,  gain +1 Durability.
+3$Light's Champion$Battlecry: Silence a Demon.
+3$Master of Ceremonies$Battlecry: If you have a minion with Spell Damage, gain +2/+2.
+3$Mulch$Destroy a minion.Add a random minion to your opponent's hand.
+3$Orgrimmar Aspirant$Inspire: Give your weapon +1 Attack.
+3$Polymorph: Boar$Transform a minion into a 4/2 Boar with Charge.
+3$Powershot$Deal 2 damage to a minion and the minions next to it.
+3$Saboteur$Battlecry: Your opponent's Hero Power costs (5) more next turn.
+3$Seal of Champions$Give a minion+3 Attack and Divine Shield.
+3$Shadowfiend$Whenever you draw a card, reduce its Cost by (1).
+3$Shady Dealer$Battlecry: If you have a Pirate, gain +1/+1.
+3$Silent Knight$StealthDivine Shield
+3$Silver Hand Regent$Inspire: Summon a 1/1 Silver Hand Recruit.
+3$Spellslinger$Battlecry: Add a random spell to each player's hand.
+3$Stablemaster$Battlecry: Give a friendly Beast Immune this turn.
+3$Tuskarr Totemic$Battlecry: Summon ANY random Totem.
+3$Warhorse Trainer$Your Silver Hand Recruits have +1 Attack.
+3$Animal Companion$Summon a random Beast Companion.
+3$Arcane Intellect$Draw 2 cards.
+3$Charge$Give a friendly minion +2 Attack and Charge.
+3$Dalaran Mage$Spell Damage +1
+3$Drain Life$Deal 2 damage. Restore 2 Health to your hero.
+3$Fan of Knives$Deal 1 damage to all enemy minions. Draw a card.
+3$Frost Nova$Freeze all enemy minions.
+3$Healing Touch$Restore 8 Health.
+3$Hex$Transform a minion into a 0/1 Frog with Taunt.
+3$Ironforge Rifleman$Battlecry: Deal 1 damage.
+3$Ironfur Grizzly$Taunt
+3$Kill Command$Deal 3 damage. If you have a Beast, deal 5 damage instead.
+3$Magma Rager
+3$Raid Leader$Your other minions have +1 Attack.
+3$Razorfen Hunter$Battlecry: Summon a 1/1 Boar.
+3$Savage Roar$Give your characters +2 Attack this turn.
+3$Shadow Bolt$Deal 4 damage to a minion.
+3$Shadow Word: Death$Destroy a minion with an Attack of 5 or more.
+3$Shattered Sun Cleric$Battlecry: Give a friendly minion +1/+1.
+3$Shield Block$Gain 5 Armor.Draw a card.
+3$Silverback Patriarch$Taunt
+3$Warsong Commander$Whenever you summon a minion with 3 or less Attack, give it Charge.
+3$Wolfrider$Charge
+3$Dancing Swords$Deathrattle: Your opponent draws a card.
+3$Dark Cultist$Deathrattle: Give a random friendly minion +3 Health.
+3$Deathlord$Taunt. Deathrattle: Your opponent puts a minion from their deck into the battlefield.
+3$Duplicate$Secret: When a friendly minion dies, put 2 copies of it into your hand.
+3$Shade of Naxxramas$Stealth. At the start of your turn, gain +1/+1.
+3$Stoneskin Gargoyle$At the start of your turn, restore this minion to full Health.
+4$Axe Flinger$Whenever this minion takes damage, deal 2 damage to the enemy hero.
+4$Core Rager$Battlecry: If your hand is empty, gain +3/+3.
+4$Dragonkin Sorcerer$Whenever you target this minion with a spell, gain +1/+1.
+4$Fireguard Destroyer$Battlecry: Gain 1-4 Attack. Overload: (1)
+4$Hungry Dragon$Battlecry: Summon a random 1-Cost minion for your opponent.
+4$Ancient Brewmaster$Battlecry: Return a friendly minion from the battlefield to your hand.
+4$Ancient Mage$Battlecry: Give adjacent minions Spell Damage +1.
+4$Arathi Weaponsmith$Battlecry: Equip a 2/2 weapon.
+4$Auchenai Soulpriest$Your cards and powers that restore Health now deal damage instead.
+4$Bite$Give your hero +4 Attack this turn and 4 Armor.
+4$Cone of Cold$Freeze a minion and the minions next to it, and deal 1 damage to them.
+4$Cult Master$Whenever one of your other minions dies, draw a card.
+4$Dark Iron Dwarf$Battlecry: Give a minion +2 Attack this turn.
+4$Defender of Argus$Battlecry: Give adjacent minions +1/+1 and Taunt.
+4$Dread Corsair$Taunt. Costs (1) less per Attack of your weapon.
+4$Ethereal Arcanist$If you control a Secret at the end of your turn, gain +2/+2.
+4$Keeper of the Grove$Choose One - Deal 2 damage; or Silence a minion.
+4$Lightspawn$This minion's Attack is always equal to its Health.
+4$Mass Dispel$Silence all enemy minions. Draw a card.
+4$Master of Disguise$Battlecry: Give a friendly minion Stealth.
+4$Mindgames$Put a copy of a random minion from your opponent's deck into the battlefield.
+4$Mogu'shan Warden$Taunt
+4$Mortal Strike$Deal 4 damage. If you have 12 or less Health, deal 6 instead.
+4$Pit Lord$Battlecry: Deal 5 damage to your hero.
+4$Shadow Madness$Gain control of an enemy minion with 3 or less Attack until end of turn.
+4$Shadowflame$Destroy a friendly minion and deal its Attack damage to all enemy minions.
+4$Silvermoon Guardian$Divine Shield
+4$Soul of the Forest$Give your minions "Deathrattle: Summon a 2/2 Treant."
+4$Spellbreaker$Battlecry: Silence a minion.
+4$Summoning Portal$Your minions cost (2) less, but not less than (1).
+4$Twilight Drake$Battlecry: Gain +1 Health for each card in your hand.
+4$Violet Teacher$Whenever you cast a spell, summon a 1/1 Violet Apprentice.
+4$Ancestor's Call$Put a random minion from each player's hand into the battlefield.
+4$Arcane Nullifier X-21$TauntCan't be targeted by spells or Hero Powers.
+4$Burly Rockjaw Trogg$Whenever your opponent casts a spell, gain +2 Attack.
+4$Dunemaul Shaman$Windfury, Overload: (1)50% chance to attack the wrong enemy.
+4$Echo of Medivh$Put a copy of each friendly minion into your hand.
+4$Enhance-o Mechano$Battlecry: Give your other minions Windfury, Taunt, or Divine Shield.(at random)
+4$Fel Cannon$At the end of your turn, deal 2 damage to a non-Mech minion.
+4$Goblin Blastmage$Battlecry: If you have a Mech, deal 4 damage randomly split among all enemies.
+4$Imp-losion$Deal 2-4 damage to a minion. Summon a 1/1 Imp for each damage dealt.
+4$Jeeves$At the end of each player's turn, that player draws until they have 3 cards.
+4$Kezan Mystic$Battlecry: Take control of a random enemy Secret.
+4$Lost Tallstrider
+4$Mechanical Yeti$Deathrattle: Give each player a Spare Part.
+4$Mini-Mage$StealthSpell Damage +1
+4$Piloted Shredder$Deathrattle: Summon a random 2-Cost minion.
+4$Sabotage$Destroy a random enemy minion. Combo: And your opponent's weapon.
+4$Screwjank Clunker$Battlecry: Give a friendly Mech +2/+2.
+4$Siltfin Spiritwalker$Whenever another friendly Murloc dies, draw a card. Overload: (1)
+4$Tinker's Sharpsword Oil$Give your weapon +3 Attack. Combo: Give a random friendly minion +3 Attack.
+4$Wee Spellstopper$Adjacent minions can't be targeted by spells or Hero Powers.
+4$Armored Warhorse$Battlecry: Reveal a minion in each deck. If yours costs more, gain Charge.
+4$Astral Communion$Gain 10 Mana Crystals. Discard your hand.
+4$Charged Hammer$Deathrattle: Your Hero Power becomes 'Deal 2 damage.'
+4$Crowd Favorite$Whenever you play a card with Battlecry, gain +1/+1.
+4$Dalaran Aspirant$Inspire: Gain Spell Damage +1.
+4$Draenei Totemcarver$Battlecry: Gain +1/+1 for each friendly Totem.
+4$Dreadsteed$Deathrattle: Summon a Dreadsteed.
+4$Evil Heckler$Taunt
+4$Fist of Jaraxxus$When you play or discard this, deal 4 damage to a random enemy.
+4$Frigid Snobold$Spell Damage +1
+4$Gormok the Impaler$Battlecry: If you have at least 4 other minions, deal 4 damage.
+4$Holy Champion$Whenever a character is healed, gain +2 Attack.
+4$Magnataur Alpha$Also damages the minions next to whomeverhe attacks.
+4$Maiden of the Lake$Your Hero Power costs (1).
+4$Murloc Knight$Inspire: Summon a random Murloc.
+4$Poisoned Blade$Your Hero Power gives this weapon +1 Attack instead of replacing it.
+4$Refreshment Vendor$Battlecry: Restore 4 Health to each hero.
+4$Savage Combatant$Inspire: Give your hero+2 Attack this turn.
+4$Spawn of Shadows$Inspire: Deal 4 damage to each hero.
+4$Tournament Medic$Inspire: Restore 2 Health to your hero.
+4$Twilight Guardian$Battlecry: If you're holding a Dragon, gain +1 Attack and Taunt.
+4$Wildwalker$Battlecry: Give a friendly Beast +3 Health.
+4$Old Murk-Eye$Charge. Has +1 Attack for each other Murloc on the battlefield.
+4$Blessing of Kings$Give a minion +4/+4. (+4 Attack/+4 Health)
+4$Chillwind Yeti
+4$Consecration$Deal 2 damage to all enemies.
+4$Dragonling Mechanic$Battlecry: Summon a 2/1 Mechanical Dragonling.
+4$Fireball$Deal 6 damage.
+4$Gnomish Inventor$Battlecry: Draw a card.
+4$Hammer of Wrath$Deal 3 damage.Draw a card.
+4$Hellfire$Deal 3 damage to ALL characters.
+4$Houndmaster$Battlecry: Give a friendly Beast +2/+2 and Taunt.
+4$Kor'kron Elite$Charge
+4$Multi-Shot$Deal 3 damage to two random enemy minions.
+4$Oasis Snapjaw
+4$Ogre Magi$Spell Damage +1
+4$Polymorph$Transform a minion into a 1/1 Sheep.
+4$Sen'jin Shieldmasta$Taunt
+4$Stormwind Knight$Charge
+4$Swipe$Deal 4 damage to an enemy and 1 damage to all other enemies.
+4$Truesilver Champion$Whenever your hero attacks, restore 2 Health to it.
+4$Water Elemental$Freeze any character damaged by this minion.
+4$Windspeaker$Battlecry: Give a friendly minion Windfury.
+4$Anub'ar Ambusher$Deathrattle: Return a random friendly minion to your hand.
+4$Baron Rivendare$Your minions trigger their Deathrattles twice.
+4$Death's Bite$Deathrattle: Deal 1 damage to all minions.
+4$Poison Seeds$Destroy all minions and summon 2/2 Treants to replace them.
+4$Voidcaller$Deathrattle: Put a random Demon from your hand into the battlefield.
+4$Wailing Soul$Battlecry: Silence your other minions.
+5$Blackwing Corruptor$Battlecry: If you're holding a Dragon, deal 3 damage.
+5$Dark Iron Skulker$Battlecry: Deal 2 damage to all undamaged enemy minions.
+5$Dragon Consort$Battlecry: The next Dragon you play costs (2) less.
+5$Dragon's Breath$Deal 4 damage. Costs (1) less for each minion that died this turn.
+5$Grim Patron$Whenever this minion survives damage, summon another Grim Patron.
+5$Solemn Vigil$Draw 2 cards. Costs (1) less for each minion that died this turn.
+5$Abomination$Taunt. Deathrattle: Deal 2 damage to ALL characters.
+5$Azure Drake$Spell Damage +1. Battlecry: Draw a card.
+5$Bane of Doom$Deal 2 damage to a character. If that kills it, summon a random Demon.
+5$Blessed Champion$Double a minion's Attack.
+5$Brawl$Destroy all minions except one. (chosen randomly)
+5$Captain Greenskin$Battlecry: Give your weapon +1/+1.
+5$Doomguard$Charge. Battlecry: Discard two random cards.
+5$Doomhammer$Windfury, Overload: (2)
+5$Druid of the Claw$Choose One - Charge; or +2 Health and Taunt.
+5$Earth Elemental$Taunt. Overload: (3)
+5$Explosive Shot$Deal 5 damage to a minion and 2 damage to adjacent ones.
+5$Faceless Manipulator$Battlecry: Choose a minion and become a copy of it.
+5$Fen Creeper$Taunt
+5$Harrison Jones$Battlecry: Destroy your opponent's weapon and draw cards equal to its Durability.
+5$Holy Wrath$Draw a card and deal damage equal to its cost.
+5$Leeroy Jenkins$Charge. Battlecry: Summon two 1/1 Whelps for your opponent.
+5$Nourish$Choose One - Gain 2 Mana Crystals; or Draw 3 cards.
+5$Silver Hand Knight$Battlecry: Summon a 2/2 Squire.
+5$Spiteful Smith$Enrage: Your weapon has +2 Attack.
+5$Stampeding Kodo$Battlecry: Destroy a random enemy minion with 2 or less Attack.
+5$Starfall$Choose One - Deal 5 damage to a minion; or 2 damage to all enemy minions.
+5$Stranglethorn Tiger$Stealth
+5$Venture Co. Mercenary$Your minions cost (3) more.
+5$Antique Healbot$Battlecry: Restore 8 Health to your hero.
+5$Blingtron 3000$Battlecry: Equip a random weapon for each player.
+5$Bolvar Fordragon$Whenever a friendly minion dies while this is in your hand, gain +1 Attack.
+5$Bomb Lobber$Battlecry: Deal 4 damage to a random enemy minion.
+5$Cobalt Guardian$Whenever you summon a Mech, gain Divine Shield.
+5$Cobra Shot$Deal 3 damage to a minion and the enemy hero.
+5$Demonheart$Deal 5 damage to a minion.  If it's a friendly Demon, give it +5/+5 instead.
+5$Druid of the Fang$Battlecry: If you have a Beast, transform this minion into a 7/7.
+5$Fel Reaver$Whenever your opponent plays a card, remove the top 3 cards of your deck.
+5$Floating Watcher$Whenever your hero takes damage on your turn, gain +2/+2.
+5$Hemet Nesingwary$Battlecry: Destroy a Beast.
+5$Junkbot$Whenever a friendly Mech dies, gain +2/+2.
+5$King of Beasts$Taunt. Battlecry: Gain +1 Attack for each other Beast you have.
+5$Madder Bomber$Battlecry: Deal 6 damage randomly split between all other characters.
+5$Mimiron's Head$At the start of your turn, if you have at least 3 Mechs, destroy them all and form V-07-TR-0N.
+5$Ogre Ninja$Stealth50% chance to attack the wrong enemy.
+5$Quartermaster$Battlecry: Give your Silver Hand Recruits +2/+2.
+5$Salty Dog
+5$Siege Engine$Whenever you gain Armor, give this minion +1 Attack.
+5$Upgraded Repair Bot$Battlecry: Give a friendly Mech +4 Health.
+5$Vol'jin$Battlecry: Swap Health with another minion.
+5$Clockwork Knight$Battlecry: Give a friendly Mech +1/+1.
+5$Flame Lance$Deal 8 damage to a minion.
+5$Kvaldir Raider$Inspire: Gain +2/+2.
+5$Mukla's Champion$Inspire: Give your other minions +1/+1.
+5$Nexus-Champion Saraad$Inspire: Add a random spell to your hand.
+5$Pit Fighter
+5$Ram Wrangler$Battlecry: If you have a Beast, summon arandom Beast.
+5$Recruiter$Inspire: Add a 2/2 Squire to your hand.
+5$Shado-Pan Rider$Combo: Gain +3 Attack.
+5$Thunder Bluff Valiant$Inspire: Give your Totems +2 Attack.
+5$Tuskarr Jouster$Battlecry: Reveal a minion in each deck. If yours costs more, restore 7 Health to your hero.
+5$Arcanite Reaper
+5$Assassin's Blade
+5$Assassinate$Destroy an enemy minion.
+5$Bloodlust$Give your minions +3 Attack this turn.
+5$Booty Bay Bodyguard$Taunt
+5$Darkscale Healer$Battlecry: Restore 2 Health to all friendly characters.
+5$Frostwolf Warlord$Battlecry: Gain +1/+1 for each other friendly minion on the battlefield.
+5$Gurubashi Berserker$Whenever this minion takes damage, gain +3 Attack.
+5$Holy Nova$Deal 2 damage to all enemies. Restore 2 Health to all friendly characters.
+5$Nightblade$Battlecry: Deal 3 damage to the enemy hero.
+5$Starving Buzzard$Whenever you summon a Beast, draw a card.
+5$Stormpike Commando$Battlecry: Deal 2 damage.
+5$Tundra Rhino$Your Beasts have Charge.
+5$Feugen$Deathrattle: If Stalagg also died this game, summon Thaddius.
+5$Loatheb$Battlecry: Enemy spells cost (5) more next turn.
+5$Sludge Belcher$Taunt.Deathrattle: Summon a 1/2 Slime with Taunt.
+5$Spectral Knight$Can't be targeted by spells or Hero Powers.
+5$Stalagg$Deathrattle: If Feugen also died this game, summon Thaddius.
+5$Elite Tauren Chieftain$Battlecry: Give both players the power to ROCK! (with a Power Chord card)
+6$Drakonid Crusher$Battlecry: If your opponent has 15 or less Health, gain +3/+3.
+6$Emperor Thaurissan$At the end of your turn, reduce the Cost of cards in your hand by (1).
+6$Volcanic Drake$Costs (1) less for each minion that died this turn.
+6$Argent Commander$ChargeDivine Shield
+6$Avenging Wrath$Deal 8 damage randomly split among all enemies.
+6$Blizzard$Deal 2 damage to all enemy minions and Freeze them.
+6$Cabal Shadow Priest$Battlecry: Take control of an enemy minion that has 2 or less Attack.
+6$Cairne Bloodhoof$Deathrattle: Summon a 4/5 Baine Bloodhoof.
+6$Force of Nature$Summon three 2/2 Treants with Charge that die at the end of the turn.
+6$Frost Elemental$Battlecry: Freeze a character.
+6$Gadgetzan Auctioneer$Whenever you cast a spell, draw a card.
+6$Hogger$At the end of your turn, summon a 2/2 Gnoll with Taunt.
+6$Holy Fire$Deal 5 damage. Restore 5 Health to your hero.
+6$Illidan Stormrage$Whenever you play a card, summon a 2/1 Flame of Azzinoth.
+6$Kidnapper$Combo: Return a minion to its owner's hand.
+6$Priestess of Elune$Battlecry: Restore 4 Health to your hero.
+6$Savannah Highmane$Deathrattle: Summon two 2/2 Hyenas.
+6$Siphon Soul$Destroy a minion. Restore 3 Health to your hero.
+6$Sunwalker$TauntDivine Shield
+6$Sylvanas Windrunner$Deathrattle: Take control of a random enemy minion.
+6$Temple Enforcer$Battlecry: Give a friendly minion +3 Health.
+6$The Beast$Deathrattle: Summon a 3/3 Finkle Einhorn for your opponent.
+6$The Black Knight$Battlecry: Destroy an enemy minion with Taunt.
+6$Windfury Harpy$Windfury
+6$Anima Golem$At the end of each turn, destroy this minion if it's your only one.
+6$Dark Wispers$Choose One - Summon 5 Wisps; or Give a minion +5/+5 and Taunt.
+6$Gazlowe$Whenever you cast a 1-mana spell, add a random Mech to your hand.
+6$Iron Juggernaut$Battlecry: Shuffle a Mine into your opponent's deck. When drawn, it explodes for 10 damage.
+6$Lightbomb$Deal damage to each minion equal to its Attack.
+6$Mech-Bear-Cat$Whenever this minion takes damage, add a Spare Part card to your hand.
+6$Mogor the Ogre$All minions have a 50% chance to attack the wrong enemy.
+6$Piloted Sky Golem$Deathrattle: Summon a random 4-Cost minion.
+6$Recycle$Shuffle an enemy minion into your opponent's deck.
+6$Shieldmaiden$Battlecry: Gain 5 Armor.
+6$Toshley$Battlecry and Deathrattle: Add a Spare Part card to your hand.
+6$Trade Prince Gallywix$Whenever your opponent casts a spell, gain a copy of it and give them a Coin.
+6$Ball of Spiders$Summon three 1/1 Webspinners.
+6$Bolf Ramshield$Whenever your hero takes damage, this minion takes it instead.
+6$Coldarra Drake$You can use your Hero Power any number of times.
+6$Dark Bargain$Destroy 2 random enemy minions. Discard 2 random cards.
+6$Enter the Coliseum$Destroy all minions except each player's highest Attack minion.
+6$Grand Crusader$Battlecry: Add a random Paladin card to your hand.
+6$Justicar Trueheart$Battlecry: Replace your starting Hero Power with a better one.
+6$Kodorider$Inspire: Summon a 3/5 War Kodo.
+6$Master Jouster$Battlecry: Reveal a minion in each deck. If yours costs more, gain Taunt and Divine Shield.
+6$Mogor's Champion$50% chance to attack the wrong enemy.
+6$Mysterious Challenger$Battlecry: Put one of each Secret from your deck into the battlefield.
+6$Sea Reaver$When you draw this, deal 1 damage to your minions.
+6$Sideshow Spelleater$Battlecry: Copy your opponent's Hero Power.
+6$The Mistcaller$Battlecry: Give all minions in your hand and deck +1/+1.
+6$The Skeleton Knight$Deathrattle: Reveal a minion in each deck. If yours costs more, return this to your hand.
+6$Void Crusher$Inspire: Destroy a random minion for each player.
+6$Wilfred Fizzlebang$Cards you draw from your Hero Power cost (0).
+6$Archmage$Spell Damage +1
+6$Boulderfist Ogre
+6$Dread Infernal$Battlecry: Deal 1 damage to ALL other characters.
+6$Fire Elemental$Battlecry: Deal 3 damage.
+6$Lord of the Arena$Taunt
+6$Reckless Rocketeer$Charge
+6$Starfire$Deal 5 damage.Draw a card.
+6$Vanish$Return all minions to their owner's hand.
+6$Maexxna$Destroy any minion damaged by this minion.
+6$Gelbin Mekkatorque$Battlecry: Summon an AWESOME invention.
+7$Chromaggus$Whenever you draw a card, put another copy into your hand.
+7$Majordomo Executus$Deathrattle: Replace your hero with Ragnaros, the Firelord.
+7$Nefarian$Battlecry: Add 2 random spells to your hand (from your opponent's class).
+7$Rend Blackhand$Battlecry: If you're holding a Dragon, destroy a Legendary minion.
+7$Volcanic Lumberer$TauntCosts (1) less for each minion that died this turn.
+7$Al'Akir the Windlord$Windfury, Charge, Divine Shield, Taunt
+7$Alexstrasza$Battlecry: Set a hero's remaining Health to 15.
+7$Ancient of Lore$Choose One - Draw 2 cards; or Restore 5 Health.
+7$Ancient of War$Choose One -+5 Attack; or +5 Health and Taunt.
+7$Archmage Antonidas$Whenever you cast a spell, add a 'Fireball' spell to your hand.
+7$Baron Geddon$At the end of your turn, deal 2 damage to ALL other characters.
+7$Cenarius$Choose One - Give your other minions +2/+2; or Summon two 2/2 Treants with Taunt.
+7$Deathwing$Battlecry: Destroy all other minions and discard your hand.
+7$Gladiator's Longbow$Your hero is Immune while attacking.
+7$Gorehowl$Attacking a minion costs 1 Attack instead of 1 Durability.
+7$Grommash Hellscream$ChargeEnrage: +6 Attack
+7$Gruul$At the end of each turn, gain +1/+1 .
+7$King Krush$Charge
+7$Lay on Hands$Restore 8 Health. Draw 3 cards.
+7$Lord Jaraxxus$Battlecry: Destroy your hero and replace it with Lord Jaraxxus.
+7$Malygos$Spell Damage +5
+7$Molten Giant$Costs (1) less for each damage your hero has taken.
+7$Mountain Giant$Costs (1) less for each other card in your hand.
+7$Nozdormu$Players only have 15 seconds to take their turns.
+7$Onyxia$Battlecry: Summon 1/1 Whelps until your side of the battlefield is full.
+7$Prophet Velen$Double the damage and healing of your spells and Hero Power.
+7$Pyroblast$Deal 10 damage.
+7$Ragnaros the Firelord$Can't attack. At the end of your turn, deal 8 damage to a random enemy.
+7$Ravenholdt Assassin$Stealth
+7$Sea Giant$Costs (1) less for each other minion on the battlefield.
+7$Tirion Fordring$Divine Shield. Taunt. Deathrattle: Equip a 5/3 Ashbringer.
+7$Twisting Nether$Destroy all minions.
+7$Ysera$At the end of your turn, add a Dream Card to your hand.
+7$Clockwork Giant$Costs (1) less for each card in your opponent's hand.
+7$Crush$Destroy a minion. If you have a damaged minion, this costs (4) less.
+7$Dr. Boom$Battlecry: Summon two 1/1 Boom Bots. WARNING: Bots may explode.
+7$Flame Leviathan$When you draw this, deal 2 damage to all characters.
+7$Foe Reaper 4000$Also damages the minions next to whomever he attacks.
+7$Force-Tank MAX$Divine Shield
+7$Gahz'rilla$Whenever this minion takes damage, double its Attack.
+7$Mal'Ganis$Your other Demons have +2/+2.Your hero is Immune.
+7$Malorne$Deathrattle: Shuffle this minion into your deck.
+7$Mekgineer Thermaplugg$Whenever an enemy minion dies, summon a Leper Gnome.
+7$Neptulon$Battlecry: Add 4 random Murlocs to your hand. Overload: (3)
+7$Sneed's Old Shredder$Deathrattle: Summon a random legendary minion.
+7$Tree of Life$Restore all characters to full Health.
+7$Troggzor the Earthinator$Whenever your opponent casts a spell, summon a Burly Rockjaw Trogg.
+7$Acidmaw$Whenever another minion takes damage, destroy it.
+7$Anub'arak$Deathrattle: Return this to your hand and summon a 4/4 Nerubian.
+7$Aviana$Your minions cost (1).
+7$Captured Jormungar
+7$Chillmaw$TauntDeathrattle: If you're holding a Dragon, deal 3 damage to all minions.
+7$Confessor Paletress$Inspire: Summon a random Legendary minion.
+7$Eadric the Pure$Battlecry: Change all enemy minions'Attack to 1.
+7$Fearsome Doomguard
+7$Frost Giant$Costs (1) less for each time you used your Hero Power this game.
+7$Icehowl$ChargeCan't attack heroes.
+7$Knight of the Wild$Whenever you summon a Beast, reduce the Cost of this card by (1).
+7$North Sea Kraken$Battlecry: Deal 4 damage.
+7$Rhonin$Deathrattle: Add 3 copies of Arcane Missiles to your hand.
+7$Skycap'n Kragg$CharrrrrgeCosts (1) less for each friendly Pirate.
+7$Varian Wrynn$Battlecry: Draw 3 cards.Put any minions you drew directly into the battlefield.
+7$Core Hound
+7$Flamestrike$Deal 4 damage to all enemy minions.
+7$Guardian of Kings$Battlecry: Restore 6 Health to your hero.
+7$Ironbark Protector$Taunt
+7$Mind Control$Take control of an enemy minion.
+7$Sprint$Draw 4 cards.
+7$Stormwind Champion$Your other minions have +1/+1.
+7$War Golem
+7$Kel'Thuzad$At the end of each turn, summon all friendly minions that died this turn.
