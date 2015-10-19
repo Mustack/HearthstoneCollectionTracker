@@ -4,11 +4,11 @@ We get our raw data from http://hearthstonejson.com/
 
 Dependencies
 
--Python: If you want to massage the raw data into the format used in the script.
--Autoit3: To run the script or compile it to an executable. https://www.autoitscript.com/site/autoit/
+*Python: If you want to massage the raw data into the format used in the script.
+*Autoit3: To run the script or compile it to an executable. https://www.autoitscript.com/site/autoit/
 
 
 Backlog:
--Remove python dependency by consuming the raw data in autoit
--Skip cards we previously had
--Support for windowed mode and different resolutions
+*Remove python dependency by consuming the raw data in autoit
+*Skip cards we previously had
+*Support for windowed mode and different resolutions
