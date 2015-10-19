@@ -30,7 +30,6 @@ for set in allSets:
         byCost[cost].append(cardString)
 
 for cost in range(0, 8):
-    print(cost)
     for card in byCost[cost]:
         output.write(str(cost))
         output.write("$")
